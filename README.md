@@ -8,7 +8,7 @@
 
 ## Home Page Interface
 <p align="left">
-  <img alt="" style="{max-height: 20px}" src="./Ossama Mehmood (Interface Design)/Home Page Interface.PNG">
+  <img alt="" style="{max-height: 20px}" src="./images/banner.jpg">
 </p>
 
 # `OSSAMAMEHMOOD`
