@@ -10,7 +10,7 @@
     					<span class="icon-bar"></span>
     				</button>
 				
-					<a href="#" class="navbar-brand">ossamamehmood</a>
+					<a class="navbar-brand">ossamamehmood</a>
     			</div>  <!-- navbar-header end -->
     			<!-- main nav  -->
 
