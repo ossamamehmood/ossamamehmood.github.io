@@ -50,9 +50,7 @@
 
 <div></div>
 
-<!--- 
-language icons 
---->
+<!--- language icons --->
 
 <!---
 
