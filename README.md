@@ -115,6 +115,7 @@ Believe `in Allah Almighty` Exclusively and Unconditionally.
   
   `Secondary School` Certificate `(SSC)` or `Matriculation` Examination - Islamabad Model College For Boys
 
+
   <!--- Portfolio/Website --->  
   
 <h1 align="center">
@@ -137,6 +138,7 @@ Believe `in Allah Almighty` Exclusively and Unconditionally.
   <img width="400px" src="https://github-readme-streak-stats.herokuapp.com?user=ossamamehmood&theme=material-palenight&hide_border=true&fire=C77800&ring=7C2AE8&background=1F222E" />
 </p>
 <div align="center"> <img src="https://raw.githubusercontent.com/muhiqsimui/muhiqsimui/output/github-contribution-grid-snake.svg" /></div>
+
 
 <!--- building footer with spaceship question --->
 ![footer](https://user-images.githubusercontent.com/60597290/152518980-fa55fbc8-81fe-4bba-bf52-21320455e217.png)
