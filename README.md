@@ -1,6 +1,6 @@
 <div align="center">
 
-# Ossama Mehmood 샘 `(ossamamehmood.me)`
+# Ossama Mehmood 샘 `(ossamamehmood.github.io)`
 
 <p align="left">
   <img alt="" style="{max-height: 20px}" src="./Prototype/Prototype (ossamamehmood).png">
