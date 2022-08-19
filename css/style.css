@@ -4,6 +4,8 @@
 
 /*========== Button Dark/Light ==========*/
 
+/*========== Button Hover Color Change : c400ff ==========*/
+
 .nav__btns {
   display: flex;
   align-items: center;
@@ -28,11 +30,6 @@
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
 }
-
-
-
-
-
 
 /* Genral Styles */
 
@@ -64,7 +61,7 @@ ul {
 }
 
 img {
-  width: 100%;
+  width: 150%;
 }
 
 .container {
@@ -231,7 +228,7 @@ img {
 }
 
 .btn:hover {
-  background-color: #6b44e0;
+  background-color: #c400ff;
 }
 
 .btn.small {
@@ -299,7 +296,7 @@ nav .container {
 
 .links a.active:hover {
   color: var(--light-one);
-  background-color: #6b44e0;
+  background-color: #c400ff;
 }
 
 .hamburger-menu {
@@ -1303,7 +1300,7 @@ header .circle {
 }
 
 .input-arrow:hover {
-  background-color: #6b44e0;
+  background-color: #c400ff;
 }
 
 .focus {
@@ -1386,7 +1383,7 @@ header .circle {
 }
 
 .back-btn:hover {
-  background-color: #6b44e0;
+  background-color: #c400ff;
 }
 
 .back-btn-wrap:before {
