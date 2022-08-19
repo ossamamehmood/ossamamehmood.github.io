@@ -1,13 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/*========== Variables Dark theme ==========*/
+
+/*========== Button Dark/Light ==========*/
+
+.nav__btns {
+  display: flex;
+  align-items: center;
+}
+.change-theme {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  margin-right: var(--mb-1);
+  cursor: pointer;
+}
+.change-theme:hover {
+  color: var(--first-color);
+}
+
+/*========== Variables Dark theme END ==========*/
+
 :root {
   --dark-one: #333;
   --dark-two: #7a7a7a;
-  --main-color: #784cfb;
+  --main-color: #ff00c0;
   --light-one: #fff;
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
 }
+
+
+
+
+
 
 /* Genral Styles */
 
@@ -997,7 +1022,7 @@ header .circle {
 .rate {
   display: flex;
   font-size: 1.4rem;
-  color: #ebc000;
+  color: #ff00c0;
   margin-bottom: 1.5rem;
 }
 
