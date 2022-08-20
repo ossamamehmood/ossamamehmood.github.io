@@ -41,8 +41,8 @@ body{
   appearance: none;
   height: 32px;
   width: 65px;
-  background: rgb(179,0,255);
-  background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%);
+  background:rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
   position: absolute;
   right: 0;
   border-radius: 20px;
@@ -64,8 +64,8 @@ body{
   color: #e5e5e5;
 }
 .dark-theme #toggle{
-  background:rgb(179,0,255);
-  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+  background: rgb(179,0,255);
+  background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%);
 }
 .dark-theme #toggle:after{
   background-color: transparent;
