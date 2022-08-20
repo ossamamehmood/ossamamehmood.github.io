@@ -4,7 +4,13 @@
 
 /*========== Button Dark/Light ==========*/
 
-/*========== Button Hover Color Change : #c400ff ==========*/
+
+/*========== MAIN COLOR : 
+ 
+==========*/
+
+/*========== Button Hover Color Change (INVERSE): background: rgb(179,0,255);
+background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%); ==========*/
 
 /*========== Rating/Review Nav : #ff008cf3 ==========*/
 
@@ -27,7 +33,8 @@
 :root {
   --dark-one: #333;
   --dark-two: #7a7a7a;
-  --main-color: #ff008cf3;
+  --main-color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
   --light-one: #fff;
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
@@ -88,7 +95,7 @@ img {
 
 .text {
   font-size: 1.25rem;
-  color: var(--dark-two);
+  color: var(--dark-one);
   line-height: 1.6;
 }
 
@@ -220,7 +227,8 @@ img {
 .btn {
   display: inline-block;
   padding: 0.85rem 2rem;
-  background-color: var(--main-color);
+  background-color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%); 
   color: var(--light-one);
   border-radius: 2rem;
   font-size: 1.05rem;
@@ -230,7 +238,8 @@ img {
 }
 
 .btn:hover {
-  background-color: #c400ff;
+  background-color: rgb(179,0,255);
+  background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%);
 }
 
 .btn.small {
@@ -284,7 +293,8 @@ nav .container {
 }
 
 .links a.active {
-  background-color: var(--main-color);
+  background-color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%); 
   color: var(--light-one);
   border-radius: 2rem;
   font-size: 1rem;
@@ -298,7 +308,8 @@ nav .container {
 
 .links a.active:hover {
   color: var(--light-one);
-  background-color: #c400ff;
+  background-color: rgb(179,0,255);
+  background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%);
 }
 
 .hamburger-menu {
@@ -735,6 +746,7 @@ header .circle {
 
 .about .text {
   margin-top: 1rem;
+  text-align: left;
 }
 
 .skills {
@@ -799,7 +811,8 @@ header .circle {
 
 .records {
   position: relative;
-  background-color: var(--main-color);
+  background-color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
   padding: 5.2rem 0;
 }
 
@@ -1256,7 +1269,8 @@ header .circle {
 }
 
 .footer .text {
-  color: #aaa;
+  color: #888;
+
 }
 
 .footer-links a {
@@ -1302,7 +1316,8 @@ header .circle {
 }
 
 .input-arrow:hover {
-  background-color: #c400ff;
+  background-color: rgb(179,0,255);
+  background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%);
 }
 
 .focus {
@@ -1385,7 +1400,8 @@ header .circle {
 }
 
 .back-btn:hover {
-  background-color: #c400ff;
+  background-color: rgb(179,0,255);
+  background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%);
 }
 
 .back-btn-wrap:before {
