@@ -30,9 +30,18 @@ body{
   width: 400px;
   margin: 40px auto;
 }
-.containertoggle {
-  width: 100%;
-  margin: -2rem;
+.containertoggle {  
+
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  align-items: center;
+
+  font-size: 0.7rem;
+  padding: 0.7rem 1.7rem;
+  margin-left: 0.6rem;
+
+  margin: -1rem;
   margin-top: 7px;
   position: relative;
 }
