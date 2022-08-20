@@ -4,7 +4,9 @@
 
 /*========== Button Dark/Light ==========*/
 
-/*========== Button Hover Color Change : c400ff ==========*/
+/*========== Button Hover Color Change : #c400ff ==========*/
+
+/*========== Rating/Review Nav : #ff008cf3 ==========*/
 
 .nav__btns {
   display: flex;
@@ -25,7 +27,7 @@
 :root {
   --dark-one: #333;
   --dark-two: #7a7a7a;
-  --main-color: #ff00c0;
+  --main-color: #ff008cf3;
   --light-one: #fff;
   --light-two: #f9fafb;
   --light-three: #f6f7fb;
@@ -366,7 +368,7 @@ nav.open .links {
 .header-title {
   font-size: 3.8rem;
   line-height: 0.8;
-  color: var(--dark-one);
+  color: var(--dark-main);
 }
 
 .header-content .text {
@@ -1019,7 +1021,7 @@ header .circle {
 .rate {
   display: flex;
   font-size: 1.4rem;
-  color: #ff00c0;
+  color: #ff008cf3;
   margin-bottom: 1.5rem;
 }
 
@@ -1054,7 +1056,7 @@ header .circle {
   bottom: 2.2rem;
   top: initial;
   font-size: 1.8rem;
-  color: var(--main-color);
+  color: #ff008cf3;
 }
 
 .swiper-button-next {
