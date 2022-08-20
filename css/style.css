@@ -1,18 +1,81 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-/*========== Variables Dark theme ==========*/
 
-/*========== Button Dark/Light ==========*/
-
-
-/*========== MAIN COLOR : 
- 
+/*========== Main Gradient Color : background:
+rgb(179,0,255);
+background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
 ==========*/
 
-/*========== Button Hover Color Change (INVERSE): background: rgb(179,0,255);
-background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%); ==========*/
+/*========== Button Hover Color Change (Inverse): background:
+rgb(179,0,255);
+background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%); 
+==========*/
 
-/*========== Rating/Review Nav : #ff008cf3 ==========*/
+/*========== Rating/Review Color: 
+#ff008cf3 
+==========*/
+
+/*========== Dark/Light 
+theme Start ==========*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 0px;
+}
+.all{
+  width: 400px;
+  margin: 40px auto;
+}
+.containertoggle {
+  width: 100%;
+  margin: -2rem;
+  margin-top: 7px;
+  position: relative;
+}
+#toggle{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 32px;
+  width: 65px;
+  background: rgb(179,0,255);
+  background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%);
+  position: absolute;
+  right: 0;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+#toggle:after{
+  content: "";
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  background-color: #ffffff;
+  top: 5px;
+  left: 7px;
+  border-radius: 50%;
+}
+.dark-theme{
+  background-color: #15181f;
+  color: #e5e5e5;
+}
+.dark-theme #toggle{
+  background:rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+}
+.dark-theme #toggle:after{
+  background-color: transparent;
+  box-shadow: 10px 10px #15181f;
+  top: -4px;
+  left: 30px;
+}
+
+/*========== Dark/Light 
+Theme End ==========*/
 
 .nav__btns {
   display: flex;
@@ -27,8 +90,6 @@ background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%,
 .change-theme:hover {
   color: var(--first-color);
 }
-
-/*========== Variables Dark theme END ==========*/
 
 :root {
   --dark-one: #333;
@@ -556,7 +617,8 @@ header .circle {
   height: 520px;
   top: 0;
   left: 0;
-  background-color: var(--main-color);
+  background-color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
 }
 
 .portfolio .title,
@@ -582,6 +644,7 @@ header .circle {
   background-color: transparent;
   margin: 0.45rem 0.4rem;
   padding: 0.85rem 1.8rem;
+  
   color: var(--light-one);
   text-transform: uppercase;
   font-weight: 500;
@@ -594,7 +657,7 @@ header .circle {
 
 .filter-btn.active {
   background-color: var(--light-one);
-  color: var(--main-color);
+  color: var(--dark-main);
 }
 
 .portfolio .square {
@@ -1626,12 +1689,13 @@ header .circle {
 
   .background-bg {
     height: 370px;
+
   }
 
   .filter-btn {
     padding: 0.6rem 1.45rem;
     font-size: 0.7rem;
-  }
+    }
 
   .about img {
     max-width: 420px;
