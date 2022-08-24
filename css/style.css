@@ -379,7 +379,10 @@ nav .container {
 }
 
 .links a:hover {
-  color: var(--main-color);
+  color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
 
 .links a.active:hover {
@@ -1115,14 +1118,15 @@ header .circle {
 .rate {
   display: flex;
   font-size: 1.4rem;
-  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);  -webkit-background-clip: text;
   margin-bottom: 1.5rem;
 }
 
 .rate i {
-  margin-right: 0.3rem;
+  margin-right: 0.3rem; 
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .review-text {
@@ -1367,7 +1371,10 @@ background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%,
 }
 
 .footer-links a:hover {
-  color: var(--main-color);
+  color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
 }
 
 .footer-input-wrap {
@@ -1426,7 +1433,9 @@ background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%,
 }
 
 .copyright .text span {
-  color: var(--main-color);
+  color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
 
@@ -1440,7 +1449,10 @@ background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%,
 }
 
 .followme h3 {
-  color: #7b7b7b;
+  color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 500;
   font-size: 1.3rem;
 }
@@ -1448,20 +1460,27 @@ background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%,
 .followme .footer-line {
   width: 60px;
   height: 2px;
-  background-color: #7b7b7b;
+  background-color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
   margin: 0 1.2rem;
   display: inline-block;
 }
 
 .social-media a {
-  color: #7b7b7b;
+  color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 1.3rem;
   margin-right: 0.4rem;
   transition: 0.3s;
 }
 
 .social-media a:hover {
-  color: var(--main-color);
+  color: rgb(179,0,255);
+  background: linear-gradient(-90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .back-btn-wrap {
