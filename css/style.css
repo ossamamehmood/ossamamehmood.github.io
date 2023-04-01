@@ -103,6 +103,13 @@ html{
 @media (max-width: 768px) {
   .fb_iframe_widget iframe {
     width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .messenger-bot {
+    zoom: 100%;
+    width: 100% !important;
+    height: 100% !important;
   }
 }
 }
@@ -113,9 +120,7 @@ body{
 }
 
 /* reset zoom level for messenger bot */
-.messenger-bot {
-  zoom: 67%;
-}
+
 
 .all{
   width: 400px;
