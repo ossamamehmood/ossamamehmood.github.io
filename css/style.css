@@ -102,14 +102,15 @@ html{
   /* adjust chatbot styles for smaller screens */
 @media (max-width: 768px) {
   .fb_iframe_widget iframe {
-    width: 100% !important;
-    height: 100% !important;
+    width: 110% !important;
+    height: 110% !important;
   }
   
   .messenger-bot {
-    zoom: 100%;
-    width: 100% !important;
-    height: 100% !important;
+    zoom: 110%;
+   /* width: 110% !important;
+    height: 110% !important;
+    */
   }
 }
 }
