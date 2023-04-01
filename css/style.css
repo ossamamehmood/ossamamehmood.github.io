@@ -11,14 +11,9 @@ rgb(179,0,255);
 background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%); 
 ==========*/
 
-/*========== Rating/Review Color: 
-background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+/*========== 
+Gradient Header Start 
 ==========*/
-
-/*========== Dark/Light 
-theme Start ==========*/
 
 .gradient-title {
   position: relative;
@@ -63,6 +58,32 @@ theme Start ==========*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.btn-header {
+  display: inline-block;
+  padding: 0.85rem 2rem;
+  background-color: rgb(179,0,255);
+  background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%);
+  color: var(--light-one);
+  border-radius: 2rem;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-header:hover {
+  background-color: rgb(179,0,255);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%); 
+}
+
+/*========== 
+Gradient Header Ended 
+==========*/
+
+
+/*========== Dark/Light 
+theme Start ==========*/
 
 *{
   padding: 0;
@@ -501,7 +522,7 @@ nav.open .links {
 .header-title {
   font-size: 3.8rem;
   line-height: 0.8;
-  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+  background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -509,7 +530,7 @@ nav.open .links {
 .header-text {
   font-size: 1.50rem;
   line-height: 1.6;
-  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+  background: linear-gradient(-90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 20px 0;
