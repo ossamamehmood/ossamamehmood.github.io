@@ -100,11 +100,15 @@ html {
 }
 
 /* adjust Messenger bot iframe styles */
-.fb_iframe_widget iframe {
-  zoom: 0.67;
-  width: 300px; /* adjust to desired width */
-  height: 500px; /* adjust to desired height */
+.fb_customer_chat_bounce_in_v2,
+.fb_dialog,
+.fb_dialog_iframe,
+.fb_dialog_wrapper,
+.fb_customer_chat_bounce_in_v2 {
+  transform: scale(1.5);
+  transform-origin: bottom left;
 }
+
 
 body{
   padding: 0px;
