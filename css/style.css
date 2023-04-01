@@ -114,7 +114,7 @@ body{
 
 /* reset zoom level for messenger bot */
 .messenger-bot {
-  zoom: 100%;
+  zoom: 67%;
 }
 
 .all{
