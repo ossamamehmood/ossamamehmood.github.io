@@ -99,25 +99,15 @@ html {
   zoom: 0.67;
 }
 
-/* adjust Messenger bot iframe styles */
-.fb_customer_chat_bounce_in_v2,
-.fb_dialog,
-.fb_dialog_iframe,
-.fb_dialog_wrapper,
-.fb_customer_chat_bounce_in_v2 {
-  transform: scale(1.5);
-  transform-origin: bottom right;
+.fb-customerchat {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
-
 
 body{
   padding: 0px;
-    transform: scale(0.67);
-    transform-origin: bottom right;
 }
-
-/* reset zoom level for messenger bot */
-
 
 .all{
   width: 400px;
