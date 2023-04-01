@@ -94,18 +94,16 @@ theme Start ==========*/
 
 /*========== important ==========*/
 
-/* set website zoom to 67% */
+/* set website zoom to 67% 
+
 html {
   zoom: 0.67;
 }
 
-.fb-customerchat {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
+*/
 
 body{
+  zoom: 0.67;
   padding: 0px;
 }
 
