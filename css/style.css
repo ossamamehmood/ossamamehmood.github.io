@@ -94,26 +94,15 @@ theme Start ==========*/
 
 /*========== important ==========*/
 
-html{
-
-    /* set website zoom to 80% */
-    zoom: 67%;
-
-  /* adjust chatbot styles for smaller screens */
-@media (max-width: 768px) {
-  .fb_iframe_widget iframe {
-    zoom: 67%;
-  }
-  
-  .messenger-bot {
-    width: 400px; /* adjust to desired width */
-    height: 500px; /* adjust to desired height */
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
+/* set website zoom to 67% */
+html {
+  zoom: 0.67;
 }
+
+/* adjust Messenger bot iframe styles */
+.fb_iframe_widget iframe {
+  width: 300px; /* adjust to desired width */
+  height: 500px; /* adjust to desired height */
 }
 
 body{
