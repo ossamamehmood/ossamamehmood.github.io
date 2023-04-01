@@ -90,9 +90,23 @@ theme Start ==========*/
   margin: 0;
   box-sizing: border-box;
 }
+
+
+/*========== important ==========*/
 body{
+
   padding: 0px;
+
+  /* set website zoom to 80% */
+  zoom: 67%;
+
 }
+
+/* reset zoom level for messenger bot */
+.messenger-bot {
+  zoom: 100%;
+}
+
 .all{
   width: 400px;
   margin: 40px auto;
