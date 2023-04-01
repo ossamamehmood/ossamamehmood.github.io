@@ -93,13 +93,23 @@ theme Start ==========*/
 
 
 /*========== important ==========*/
+
+html{
+
+    /* set website zoom to 80% */
+    zoom: 67%;
+
+  /* adjust chatbot styles for smaller screens */
+@media (max-width: 768px) {
+  .fb_iframe_widget iframe {
+    width: 100% !important;
+  }
+}
+}
+
+
 body{
-
   padding: 0px;
-
-  /* set website zoom to 80% */
-  zoom: 67%;
-
 }
 
 /* reset zoom level for messenger bot */
