@@ -107,9 +107,7 @@ html{
   }
   
   .messenger-bot {
-    zoom: 110%;
-    width: 110% !important;
-    height: 110% !important;
+    zoom: 67;
   }
 }
 }
