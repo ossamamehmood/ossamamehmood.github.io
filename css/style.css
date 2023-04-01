@@ -102,8 +102,7 @@ html{
   /* adjust chatbot styles for smaller screens */
 @media (max-width: 768px) {
   .fb_iframe_widget iframe {
-    width: 110% !important;
-    height: 110% !important;
+    zoom: 67%;
   }
   
   .messenger-bot {
@@ -111,7 +110,6 @@ html{
   }
 }
 }
-
 
 body{
   padding: 0px;
