@@ -106,7 +106,12 @@ html{
   }
   
   .messenger-bot {
-    zoom: 67%;
+    width: 400px; /* adjust to desired width */
+    height: 500px; /* adjust to desired height */
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 }
