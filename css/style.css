@@ -106,7 +106,7 @@ html {
 .fb_dialog_wrapper,
 .fb_customer_chat_bounce_in_v2 {
   transform: scale(1.5);
-  transform-origin: bottom left;
+  transform-origin: bottom right;
 }
 
 
