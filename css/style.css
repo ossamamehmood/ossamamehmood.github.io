@@ -113,7 +113,7 @@ html {
 body{
   padding: 0px;
     transform: scale(0.67);
-    transform-origin: top right;
+    transform-origin: bottom right;
 }
 
 /* reset zoom level for messenger bot */
