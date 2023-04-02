@@ -103,8 +103,11 @@ html {
 */
 
 body{
-  zoom: 0.67;
   padding: 0px;
+}
+
+main {
+  zoom: 0.67;
 }
 
 .all{
