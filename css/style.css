@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
-/*========== Main Gradient Color : background:
-rgb(179,0,255);
+/*========== Main Gradient Color : 
+background: rgb(179,0,255);
 background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
 ==========*/
 
-/*========== Button Hover Color Change (Inverse): background:
-rgb(179,0,255);
+/*========== Button Hover Color Change (Inverse): 
+background: rgb(179,0,255);
 background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%); 
 ==========*/
 
@@ -92,23 +92,18 @@ theme Start ==========*/
 }
 
 
-/*========== important ==========*/
-
-/* set website zoom to 67% 
-
-html {
-  zoom: 0.67;
-}
-
-*/
-
 body{
   padding: 0px;
 }
 
+/*========== important ==========*/
+/* Set website zoom */
+
 main {
   zoom: 0.67;
 }
+
+/* Set website zoom */
 
 .all{
   width: 400px;
