@@ -87,8 +87,13 @@ body {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- 🔁 Add Redirect Below -->
+    <!-- Meta Redirect -->
     <meta http-equiv="refresh" content="0; url=https://ossamamehmood.com" />
+
+    <!-- JS Redirect -->
+    <script>
+      window.location.href = "https://ossamamehmood.com";
+    </script>
     
     <!-- Title  -->
     <title>Ossama Mehmood</title>
@@ -114,6 +119,11 @@ body {
   </head>
   
   <body>
+
+  <!-- Fallback for no JavaScript -->
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://ossamamehmood.com">
+  </noscript>
 
     <!-- Hero Image Start -->
 
